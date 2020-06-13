@@ -1,0 +1,246 @@
+html .page {    overflow: visible !important;}#container {
+	background-color: white; 
+	height: auto;
+	width: auto;
+	border-radius: 6px;
+	font-family: "Times New Roman", Times, serif;		margin-left: auto;	margin-right: auto;		position: absolute;
+	
+}
+#choose1 {
+	background-color: lightgrey; 
+	width: auto;
+	padding: 10px;  
+	font-family: "Times New Roman", Times, serif;
+	position: inline-block;
+}#choose2 {	background-color: lightgrey; 	width: auto;	padding: 10px;	font-family: "Times New Roman", Times, serif;	position: fixed;		top: 480px;	}
+
+.inner-container {
+	width: auto;	max-width: 600px;	
+	height: auto;
+	background-color: lightgray; 
+	padding: 10px;
+	left: 5;
+	top: 8;
+}#title-table{	border: 0px;}
+
+.top-left-section{
+	background-color: white;
+	display: inline-block;
+}
+.table-stay {	position: sticky;}
+.picture-container{
+	width: 150px;
+	height: 200px;
+
+}
+#picture {
+	margin-left: auto;
+	margin-right: auto;
+	max-height:100%;
+}
+
+.dates {
+	background-color: white;
+	width: 150px;
+	height: 200px;
+	left: 155px;
+	position: relative;
+	top: -200px;
+}
+.small-table {
+	border: 1px solid #dddddd;
+	text-align: left;
+	overflow-wrap: break-word;
+	width: 100%;
+	position: relative;
+	background-color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: #dff5e2;
+}
+th {
+	text-align: center;
+	color: white;
+	background-color: green;
+}
+.small-table td {
+	 font-size: 9.4px;
+	 width: 50%;
+}
+
+.big-table{
+	border: 1px solid #dddddd;
+	text-align: left;
+	overflow-wrap: break-word;
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.big-table td:nth-child(odd) {
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table-image {
+	width: 20px;
+	
+}
+
+.big-side-table{
+	border: 1px solid #dddddd;
+	text-align: left;
+	overflow-wrap: break-word;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+.big-side-table td:nth-child(odd) {
+	width: 50%;
+}
+
+.personal-information{
+	background-color: white;
+	width: 100%;
+	height: 130px;
+	left: 0px;
+	position: relative;
+	top: -200px;
+}
+.notes{
+	background-color: white;
+	width: 100%;
+	height: 130px;
+	left: 0px;
+	position: relative;
+	top: -200px;
+}
+.comments-header{
+	border: 1px solid #dddddd;
+	text-align: left;
+	overflow-wrap: break-word;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+#comments-header{
+		height: 30px;
+}
+.top-right-secton{
+	background-color: white;
+	display: inline-block;	
+}
+
+/*
+	Splitting DIV's side by side
+*/
+.split {
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 10px;
+	overflow-y: hidden;
+
+}
+
+.left {
+	left: 0;
+}
+.left-side, .right-side {
+	height: 460px;
+	width: 306px;
+}
+.right {
+	right: 0;
+}
+
+.selection {
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	border: 1px;
+	border-color: gray;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	display:inline-block;
+	
+}
+.selection:hover {
+	opacity: .4;
+}
+.selection-image {
+	width: 100px;
+	max-height: 150px;
+}
+
+.selection-title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-size: 15pt;
+  background-color: white;
+  opacity: .7;
+}
+
+.home-title{
+	color: green;
+	font-weight: 900;
+	font-size: 20pt;	
+	text-align: center;
+
+}
+#badge {
+	height: 125px;
+	float: left;
+}
+
+#div {
+	height: 125px;
+	float: right;
+}
+
+#viable-sex {
+	height: 170px;
+	width: 100%;
+	background-color: green;
+}
+
+#non-viable {
+	height: auto;
+	width: 100%;
+	background-color: lightgrey;			border: 0;
+}
+
+#top-table {
+	width: 100%;
+}
+
+.top-tables{
+	height: 168px;
+}
+
+.red {
+	color: red;
+	font-weight: 900;
+}
+
+.center {
+	text-align: center !important; 
+}
+
+#nonVs {
+	border-bottom-color: red;
+	background-color: pink;
+	width: 100%;
+	border: 1px solid red;
+}
+#nonVs td:nth-child(odd) {
+	font-weight: 900;
+}
+#nonVs tr {
+	border: 1px solid red;
+}/*  Resizing code to keep images, logo, buttons correct size*/@media only screen and (max-width: 624px) {  #choose2 {     position: fixed;	max-width: 100px;	left: 312px;	top: 11px;  }}

@@ -1,0 +1,196 @@
+#container {
+	text-align: center;
+	color: green;
+	height: 100%;
+	width: 85%;
+	border-radius: 6px;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgrey;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: white;
+}
+
+hr {
+	width: 95%;
+	color: grey;
+}
+#choose {
+	position: relative;
+	width: 94%;
+	height: auto;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgrey;
+}
+
+#picture {
+	margin-left: auto;
+	margin-right: auto;
+	max-height:100%;
+}
+h1 {
+	font-size: 35pt;
+}
+
+.selection-container{
+	max-width: 350;
+	min-height: 168;
+	height: auto;
+	border-style: groove;
+	display: inline-block;
+}
+
+.selection {
+	width: 175px;
+	height: 165px;
+	background-color: lightgrey;
+	margin: 4px;
+	border-color: grey;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	display:inline-block;
+	overflow: hidden;
+	opacity: .5;	
+}
+.selection-with-description{
+	width: 175px;
+	height: 165px;
+	background-color: lightgrey;
+	margin: 4px;
+	border-color: grey;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	display:inline-block;
+	overflow: hidden;
+	opacity: .5;
+	float: left;
+}
+.selection-with-description:hover{
+	opacity: 1;
+}
+.selection:hover {
+	opacity: 1;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+.selection-image {
+	width: 170px;
+	max-height: 150px;
+
+}
+
+.selection-title {
+	text-shadow: 0px 0px black;
+	color: black;
+	position: relative;
+	top: -95px;
+	font-weight: 900;
+	font-size: 20pt;
+	background-color: white;
+	opacity: .8;
+	text-decoration: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fa-arrow-alt-circle-left {
+	color: green;
+	font-size: 50px;
+	position: relative;
+	transition-duration: 0.4s;
+}
+
+.fa-arrow-alt-circle-left:hover {
+	color: lightgreen;
+	cursor: pointer;
+}
+
+
+.fa-home {
+	color: green;
+	font-size: 50px;
+	position: relative;
+	transition-duration: 0.4s;
+	right: 0;
+}
+
+.fa-home:hover {
+	color: lightgreen;
+	cursor: pointer;
+}
+
+
+/*
+	DSA Packets Page
+*/
+.side-choose {
+	min-height: 600px;
+}
+
+.side-choose-td-left {
+	width: 160px;
+	background-color: lightgrey;
+	vertical-align: top;
+}
+.side-choose-td-right {
+	background-color: lightgrey;
+	width: 100%;
+	background-image: 
+}
+
+.selection-button{
+	cursor: pointer;
+	background-color: green;
+	font-size: 24px;
+	padding: 32px 4px;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+	
+}
+.selection-button:hover{
+	background-color: lightgreen;
+}
+
+.selection-button2{
+	cursor: pointer;
+	background-color: green;
+	font-size: 16px;
+	padding: 15px 4px;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+	
+}
+.selection-button2:hover{
+	background-color: lightgreen;
+}
+
+#choose-dsa {
+	position: relative;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#bgimage {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .8;
+}

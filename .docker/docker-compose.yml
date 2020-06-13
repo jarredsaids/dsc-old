@@ -1,0 +1,23 @@
+# https://www.cloudreach.com/en/resources/blog/ct-apache-docker-containers/
+version: "3.2"
+services:
+  php:
+    build: './php/'
+    networks:
+      - backend
+    volumes:
+      - ../public/:/var/www/html/
+  apache:
+    build: './apache/'
+    depends_on:
+      - php
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "8080:80"
+    volumes:
+      - ../public/:/var/www/html/
+networks:
+  frontend:
+  backend:
