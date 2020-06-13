@@ -28,9 +28,9 @@
         </div> <!--selection-->
 
         <div class="selection">
-            <a href="http://turnersdomain.com/army/dsc_viewer.php"> <img class="selection-image"
-                                                                         src="resources\images\classes.jfif"
-                                                                         alt="statistics">
+            <a href="dsc_viewer.php"> <img class="selection-image"
+                                           src="resources\images\classes.jfif"
+                                           alt="statistics">
                 <div class="selection-title"> Classes</div>
             </a>
         </div> <!--selection-->
